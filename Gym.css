@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.logo img{
+    width: 120px;
+}
+.nav{
+    float: right;
+    
+}
+ul li{
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar ul li a{
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: darkolivegreen;
+}
+.left{
+    position: absolute;
+    right: 35px;
+    top: 90px;
+    display: inline-block;
+}
+.btn{
+    font-size: large;
+    padding: 6px;
+    margin: 10px;
+    box-shadow: 2px 2px 7px 1px #CE5937;
+}
+.container{
+    border: 2px solid gray;
+    position: absolute;
+    top: 35%;
+    left: 29%;
+    height: 500px;
+    width: 35%;
+    border-radius: 28px;
+}
+input{
+    font-size: 30px;
+    text-align: center;
+   justify-items: center;
+   display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+}
+b{
+    font-weight: 800;
+}
+.container h1{
+    text-align: center;
+    text-shadow: 1px 2px 2px #470542;
+    margin: 20px auto;
+}
+.container button {
+    background-color: rgb(6, 53, 92);
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.btn:hover {
+    background-color: rgb(93, 238, 129);
+}
